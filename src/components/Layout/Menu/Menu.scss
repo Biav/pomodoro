@@ -1,0 +1,22 @@
+@import '../_style.scss';
+
+nav {
+    box-shadow: 0 0.125rem 0.625rem rgba(90,97,105,.12);
+
+    .navbar-collapse {
+        justify-content: flex-end;
+
+        .dropdown {
+            width: 160px;
+
+            .dropdown-menu {
+                right: 0;
+                width: 100%;
+                top: 45px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-top: none;
+            }
+        }    
+    }
+}
